@@ -7,8 +7,30 @@ function createPairs(arr) {
     }
   }
 
-  return pairs , arr;
+  return pairs, arr;
 }
 
-let a = createPairs([1,2,3,4,5,56,6,7])
+let a = createPairs([1, 2, 3, 4, 5, 56, 6, 7])
 console.log(a);
+
+
+class أشهر {
+  constructor() {
+    this.أشهر = [
+      'محرم', 'صفر', 'ربيع الاول',
+      'ربيع الثاني', 'جمادى الاول', 'جمادى الثاني',
+      'رجب', 'شعبان', 'رمضان',
+      'شوال', 'ذي القعد', 'ذي الحج'
+    ]
+
+    الأفضل(); {
+      let كبير;
+      for (const شهر of this.أشهر) {
+        if (شهر === 'رمضان') {
+          كبير = شهر;
+          break;
+        }
+      }
+    }
+  }
+}
